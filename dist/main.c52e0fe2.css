@@ -1,0 +1,79 @@
+body {
+  font-family: "Source Sans Pro";
+  /*margin-top: 0;
+  background-color: rgba(110, 7, 7, 0.685);*/
+}
+/*header {
+  background-image: linear-gradient(darkcyan, white);
+  opacity: 0.8;
+  margin: 0 -15px 25px -15px;
+  padding: 10px;
+}
+*/
+
+h1 {
+  text-align: center;
+}
+/*
+.burgerM {
+  display: inline-block;
+  padding-right: 10px;
+  margin-top:3px;
+}
+.menuComponents {
+  font-size: 20px; 
+  margin-right: 10px;
+  padding: 1px;
+  box-sizing: content-box;
+  display: none;
+ 
+}
+.menuComponents a:link {
+  text-decoration: none;
+}
+.menuComponents a:hover{
+  background-color: ghostwhite;
+}
+.menuComponents a:visited{
+  color: darkblue;
+}*/
+.descriptionAndImg {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-weight: bold;
+  font-size: 22px;
+}
+.descriptionAndImg img {
+  width: 33%;
+  height: 300px;
+}/*
+ul {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  list-style-position: inside;
+  font-weight: bold;
+
+}
+.Members {
+  display: inline-block;
+  text-align: center;
+  width: 24%;
+}
+.imgMember {
+  width: 200px;
+}
+.member {
+  width: 400px;
+  height: 200px;
+  overflow: auto; 
+  display: inline-block;
+}
+h3 {
+  font-size: bold;
+}
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */
