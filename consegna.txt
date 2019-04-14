@@ -1,0 +1,34 @@
+Consegna sito web band musicale
+Sviluppare un sito web di un gruppo musicale a scelta.
+
+Il sito è composto da un menù 
+contenente due voci:
+
+- Home
+- Album
+
+Il menu è orizzontale su desktop, 
+verticale a scomparsa per mobile 
+(con icona "hamburger" per far apparire e scomparire tale menù).
+
+
+
+Nella home avremo il logo in alto, 
+più due sezioni:
+
+- Breve bio del gruppo
+- Nomi dei componenti e 
+ruolo con foto relativa
+
+
+
+Le info dei singoli componenti verrà 
+visualizzata al click sull'immagine 
+del singolo componente 
+
+
+
+Nella pagina "Album" avremo l'elenco 
+degli album e delle canzoni 
+(l'elenco va memorizzato in un file
+ json e richiamato in maniera asincrona)

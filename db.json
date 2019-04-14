@@ -1,0 +1,129 @@
+{
+    "album": [
+        {
+            "titolo": "Gish",
+            "anno":"1991",
+            "canzoni": [
+                {
+                    "nome": "I am One",
+                    "durata": "4:07"
+                },
+                {
+                    "nome": "Siva",
+                    "durata": "4:20"
+                },
+                {
+                    "nome": "Rhinoceros",
+                    "durata": "6:32"
+                },
+                {
+                    "nome": "Bury Me",
+                    "durata": "4:48"
+                },
+                {
+                    "nome": "Crush",
+                    "durata": "3:35"
+                },
+                {
+                    "nome": "Suffer",
+                    "durata": "5:11"
+                },
+                {
+                    "nome": "Snail",
+                    "durata": "5:11"
+                },
+                {
+                    "nome": "Tristessa",
+                    "durata": "3:33"
+                },
+                {
+                    "nome": "Window Paine",
+                    "durata": "5:51"
+                },
+                {
+                    "nome": "Daydream",
+                    "durata": "3:08"
+                }
+            ]
+        }, 
+        {
+            "titolo": "",
+            "anno":"",
+            "canzoni": [
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                }
+            ]
+        }, 
+        {
+            "titolo": "",
+            "anno":"",
+            "canzoni": [
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                }
+            ]
+        }, 
+        {
+            "titolo": "",
+            "anno":"",
+            "canzoni": [
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                },
+                {
+                    "nome": "",
+                    "durata": ""
+                }
+            ]
+        }
+
+    ]
+}
