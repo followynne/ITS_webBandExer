@@ -3,6 +3,7 @@
         {
             "titolo": "Gish",
             "anno":"1991",
+            "copertina": "./gish.d237e108.jpg",
             "canzoni": [
                 {
                     "nome": "I am One",
@@ -47,83 +48,537 @@
             ]
         }, 
         {
-            "titolo": "",
-            "anno":"",
+            "titolo": "Siamese Dream",
+            "anno":"1993",
+            "copertina": "./siameseDream.442a8df4.jpg",
             "canzoni": [
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Cherub Rock",
+                    "durata": "4:58"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Quiet",
+                    "durata": "3:41"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Today",
+                    "durata": "3:19"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Hummer",
+                    "durata": "6:57"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Rocket",
+                    "durata": "4:06"
+                },
+                {
+                    "nome": "Disarm",
+                    "durata": "3:17"
+                },
+                {
+                    "nome": "Soma",
+                    "durata": "6:39"
+                },
+                {
+                    "nome": "Geek USA",
+                    "durata": "5:13"
+                },
+                {
+                    "nome": "Mayonaise",
+                    "durata": "5:50"
+                },
+                {
+                    "nome": "Spaceboy",
+                    "durata": "4:28"
+                },
+                {
+                    "nome": "Silverfuck",
+                    "durata": "8:43"
+                },
+                {
+                    "nome": "Sweet Sweet",
+                    "durata": "1:38"
+                },
+                {
+                    "nome": "Luna",
+                    "durata": "3:20"
                 }
             ]
         }, 
         {
-            "titolo": "",
-            "anno":"",
+            "titolo": "Mellon Collie & the Infinite Sadness-CD1",
+            "anno":"1995",
+            "copertina": "./mellonCollie.4f6df60a.jpg",
             "canzoni": [
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Mellon Collie and the Infinite Sadness",
+                    "durata": "2:51"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Tonight, Tonight",
+                    "durata": "4:13"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "JellyBelly",
+                    "durata": "3:00"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Zero",
+                    "durata": "2:39"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Here is no Why",
+                    "durata": "3:44"
+                },
+                {
+                    "nome": "Bullet with butterfly wings",
+                    "durata": "4:16"
+                },
+                {
+                    "nome": "To Forgive",
+                    "durata": "4:15"
+                },
+                {
+                    "nome": "Fuck You (an Ode to No One)",
+                    "durata": "4:49"
+                },
+                {
+                    "nome": "Love",
+                    "durata": "4:21"
+                },
+                {
+                    "nome": "Cupid de Locke",
+                    "durata": "2:49"
+                },
+                {
+                    "nome": "Galapogos",
+                    "durata": "4:45"
+                },
+                {
+                    "nome": "Muzzle",
+                    "durata": "3:43"
+                },
+                {
+                    "nome": "Porcelina of the vast oceans",
+                    "durata": "9:20"
+                },
+                {
+                    "nome": "Take me Down",
+                    "durata": "2:50"
+                }
+            ]
+        },
+        {
+            "titolo": "Mellon Collie & the Infinite Sadness-CD2",
+            "anno":"1995",
+            "copertina": "./mellonCollie.4f6df60a.jpg",
+            "canzoni": [
+                {
+                    "nome": "Where boys fear to tread",
+                    "durata": "4:21"
+                },
+                {
+                    "nome": "Bodies",
+                    "durata": "4:11"
+                },
+                {
+                    "nome": "Thirty-three",
+                    "durata": "4:09"
+                },
+                {
+                    "nome": "In the Arms of Sleep",
+                    "durata": "4:11"
+                },
+                {
+                    "nome": "1979",
+                    "durata": "4:24"
+                },
+                {
+                    "nome": "Tales of a Scorched Earth",
+                    "durata": "3:45"
+                },
+                {
+                    "nome": "Thru the Eyes of Ruby",
+                    "durata": "7:37"
+                },
+                {
+                    "nome": "Stumbleine",
+                    "durata": "2:53"
+                },
+                {
+                    "nome": "X.Y.U.",
+                    "durata": "7:06"
+                },
+                {
+                    "nome": "We only come out at night",
+                    "durata": "4:04"
+                },
+                {
+                    "nome": "Beautiful",
+                    "durata": "4:17"
+                },
+                {
+                    "nome": "Lily (My One and Only)",
+                    "durata": "4:17"
+                },
+                {
+                    "nome": "By Starlight",
+                    "durata": "4:47"
+                },
+                {
+                    "nome": "Farewell and Goodnight",
+                    "durata": "4:21"
                 }
             ]
         }, 
         {
-            "titolo": "",
-            "anno":"",
+            "titolo": "Adore",
+            "anno":"1998",
+            "copertina": "./adore.d8d57c39.jpg",
             "canzoni": [
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "To Sheila",
+                    "durata": "4:46"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Ava Adore",
+                    "durata": "4:20"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Perfect",
+                    "durata": "3:23"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Daphne Descends",
+                    "durata": "4:38"
                 },
                 {
-                    "nome": "",
-                    "durata": ""
+                    "nome": "Once Upon a Time",
+                    "durata": "4:06"
+                },
+                {
+                    "nome": "Tear",
+                    "durata": "5:52"
+                },
+                {
+                    "nome": "Crestfallen",
+                    "durata": "4:09"
+                },
+                {
+                    "nome": "Apples+Oranjes",
+                    "durata": "3:34"
+                },
+                {
+                    "nome": "Pug",
+                    "durata": "4:46"
+                },
+                {
+                    "nome": "The Tale of Dusty & Pistol Pete",
+                    "durata": "4:33"
+                },
+                {
+                    "nome": "Annie-Dog",
+                    "durata": "3:36"
+                },
+                {
+                    "nome": "Shame",
+                    "durata": "6:37"
+                },
+                {
+                    "nome": "Behold! The Night Mare",
+                    "durata": "5:12"
+                },
+                {
+                    "nome": "For Martha",
+                    "durata": "8:17"
+                },
+                {
+                    "nome": "Blank Page",
+                    "durata": "4:51"
+                },
+                {
+                    "nome": "17",
+                    "durata": "0:17"
+                }
+
+            ]
+        }, 
+        {
+            "titolo": "Machina",
+            "anno":"2000",
+            "copertina": "./machina.0eb6064e.jpg",
+            "canzoni": [
+                {
+                    "nome": "The Everlasting Gaze",
+                    "durata": "4:01"
+                },
+                {
+                    "nome": "Raindrops + Sunshowers",
+                    "durata": "4:39"
+                },
+                {
+                    "nome": "Stand Inside Your Love",
+                    "durata": "4:14"
+                },
+                {
+                    "nome": "I of the Mourning",
+                    "durata": "4:37"
+                },
+                {
+                    "nome": "The Sacred and Profane",
+                    "durata": "4:22"
+                },
+                {
+                    "nome": "Try, Try, Try",
+                    "durata": "5:09"
+                },
+                {
+                    "nome": "Heavy Metal Machine",
+                    "durata": "5:52"
+                },
+                {
+                    "nome": "This Time",
+                    "durata": "4:43"
+                },
+                {
+                    "nome": "The Imploding Voice",
+                    "durata": "4:24"
+                },
+                {
+                    "nome": "Glass and the Ghost Children",
+                    "durata": "9:56"
+                },
+                {
+                    "nome": "Wound",
+                    "durata": "3:58"
+                },
+                {
+                    "nome": "The Crying Tree of Mercury",
+                    "durata": "3:43"
+                },
+                {
+                    "nome": "With Every Light",
+                    "durata": "3:43"
+                },
+                {
+                    "nome": "Blue Skies Bring Tears",
+                    "durata": "5:45"
+                },
+                {
+                    "nome": "Age of Innocence",
+                    "durata": "3:55"
                 }
             ]
-        }
+        },
+        {
+            "titolo": "Zeitgeist",
+            "anno":"2007",
+            "copertina": "./zeitgeist.460e295b.jpg",
+            "canzoni": [
+                {
+                    "nome": "Doomsday Clock",
+                    "durata": "3:44"
+                },
+                {
+                    "nome": "7 Shades of Black",
+                    "durata": "3:17"
+                },
+                {
+                    "nome": "Bleeding the Orchid",
+                    "durata": "4:03"
+                },
+                {
+                    "nome": "That's the Way (My Love Is)",
+                    "durata": "3:48"
+                },
+                {
+                    "nome": "Tarantula",
+                    "durata": "3:51"
+                },
+                {
+                    "nome": "Starz",
+                    "durata": "3:43"
+                },
+                {
+                    "nome": "United States",
+                    "durata": "9:53"
+                },
+                {
+                    "nome": "Neverlost",
+                    "durata": "4:20"
+                },
+                {
+                    "nome": "Bring the Light",
+                    "durata": "3:40"
+                },
+                {
+                    "nome": "(Come On) Let's Go!",
+                    "durata": "3:19"
+                },
+                {
+                    "nome": "For God and Country",
+                    "durata": "4:24"
+                },
+                {
+                    "nome": "Pomp and Circumstances",
+                    "durata": "4:21"
+                },
+                {
+                    "nome": "With Every Light",
+                    "durata": "3:43"
+                },
+                {
+                    "nome": "Blue Skies Bring Tears",
+                    "durata": "5:45"
+                },
+                {
+                    "nome": "Age of Innocence",
+                    "durata": "3:55"
+                }
+            ]
+        },
+        {
+            "titolo": "Oceania",
+            "anno":"2012",
+            "copertina": "./oceania.295740e6.jpg",
+            "canzoni": [
+                {
+                    "nome": "Quasar",
+                    "durata": "4:56"
+                },
+                {
+                    "nome": "Panopticon",
+                    "durata": "3:52"
+                },
+                {
+                    "nome": "The Celestials",
+                    "durata": "3:57"
+                },
+                {
+                    "nome": "Violet Rays",
+                    "durata": "4:19"
+                },
+                {
+                    "nome": "My Love is Winter",
+                    "durata": "3:32"
+                },
+                {
+                    "nome": "One Diamond, One Heart",
+                    "durata": "3:49"
+                },
+                {
+                    "nome": "Pinwheels",
+                    "durata": "5:44"
+                },
+                {
+                    "nome": "Oceania",
+                    "durata": "9:06"
+                },
+                {
+                    "nome": "Pale Horse",
+                    "durata": "4:37"
+                },
+                {
+                    "nome": "The Chimera",
+                    "durata": "4:16"
+                },
+                {
+                    "nome": "Glissandra",
+                    "durata": "4:06"
+                },
+                {
+                    "nome": "Inkless",
+                    "durata": "3:08"
+                },
+                {
+                    "nome": "Wildflower",
+                    "durata": "4:44"
+                }
+            ]
+        },
+        {
+            "titolo": "Monuments To an Elegy",
+            "anno":"2014",
+            "copertina": "./monumentsElegy.9ad24950.jpg",
+            "canzoni": [
+                {
+                    "nome": "Tiberius",
+                    "durata": "3:03"
+                },
+                {
+                    "nome": "Being Beige",
+                    "durata": "3:40"
+                },
+                {
+                    "nome": "Anaise!",
+                    "durata": "3:34"
+                },
+                {
+                    "nome": "One and All (We Are)",
+                    "durata": "3:45"
+                },
+                {
+                    "nome": "Run2Me",
+                    "durata": "4:09"
+                },
+                {
+                    "nome": "Drum+Fife",
+                    "durata": "3:54"
+                },
+                {
+                    "nome": "Monuments",
+                    "durata": "3:31"
+                },
+                {
+                    "nome": "Dorian",
+                    "durata": "3:46"
+                },
+                {
+                    "nome": "Anti-Hero",
+                    "durata": "3:20"
+                }
+            ]
+        },
+        {
+            "titolo": "Shiny and Oh So Bright, Vol. 1",
+            "anno":"2018",
+            "copertina": "./shiny.fb285718.jpg",
+            "canzoni": [
+                {
+                    "nome": "Knights of Malta",
+                    "durata": "4:37"
+                },
+                {
+                    "nome": "Silvery Sometimes (Ghosts)",
+                    "durata": "3:30"
+                },
+                {
+                    "nome": "Travels",
+                    "durata": "5:23"
+                },
+                {
+                    "nome": "Solara",
+                    "durata": "4:22"
+                },
+                {
+                    "nome": "Alienation",
+                    "durata": "5:01"
+                },
+                {
+                    "nome": "Marchin' On",
+                    "durata": "2:39"
+                },
+                {
+                    "nome": "With Sympathy",
+                    "durata": "3:30"
+                },
+                {
+                    "nome": "Seek and You Shall Destroy",
+                    "durata": "2:45"
+                }
+            ]
+        } 
 
     ]
 }

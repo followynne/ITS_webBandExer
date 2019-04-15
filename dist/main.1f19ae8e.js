@@ -17996,7 +17996,61 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/adore.jpg":[function(require,module,exports) {
+module.exports = "/adore.d8d57c39.jpg";
+},{}],"img/BilCor.jpg":[function(require,module,exports) {
+module.exports = "/BilCor.e0a6b8d6.jpg";
+},{}],"img/DArcy.jpg":[function(require,module,exports) {
+module.exports = "/DArcy.d74cff11.jpg";
+},{}],"img/gish.jpg":[function(require,module,exports) {
+module.exports = "/gish.d237e108.jpg";
+},{}],"img/JamIha.jpg":[function(require,module,exports) {
+module.exports = "/JamIha.8f9c08ed.jpg";
+},{}],"img/JimCha.jpg":[function(require,module,exports) {
+module.exports = "/JimCha.d857fef4.jpg";
+},{}],"img/logo.jpg":[function(require,module,exports) {
+module.exports = "/logo.6a66554c.jpg";
+},{}],"img/machina.jpg":[function(require,module,exports) {
+module.exports = "/machina.0eb6064e.jpg";
+},{}],"img/mellonCollie.jpg":[function(require,module,exports) {
+module.exports = "/mellonCollie.4f6df60a.jpg";
+},{}],"img/monumentsElegy.jpg":[function(require,module,exports) {
+module.exports = "/monumentsElegy.9ad24950.jpg";
+},{}],"img/oceania.jpg":[function(require,module,exports) {
+module.exports = "/oceania.295740e6.jpg";
+},{}],"img/shiny.jpg":[function(require,module,exports) {
+module.exports = "/shiny.fb285718.jpg";
+},{}],"img/siameseDream.jpg":[function(require,module,exports) {
+module.exports = "/siameseDream.442a8df4.jpg";
+},{}],"img/sp1.jpg":[function(require,module,exports) {
+module.exports = "/sp1.80ab6201.jpg";
+},{}],"img/sp2.jpg":[function(require,module,exports) {
+module.exports = "/sp2.73689841.jpg";
+},{}],"img/sp3.jpg":[function(require,module,exports) {
+module.exports = "/sp3.692dcee9.jpg";
+},{}],"img/zeitgeist.jpg":[function(require,module,exports) {
+module.exports = "/zeitgeist.460e295b.jpg";
+},{}],"img/*.jpg":[function(require,module,exports) {
+module.exports = {
+  "adore": require("./adore.jpg"),
+  "BilCor": require("./BilCor.jpg"),
+  "DArcy": require("./DArcy.jpg"),
+  "gish": require("./gish.jpg"),
+  "JamIha": require("./JamIha.jpg"),
+  "JimCha": require("./JimCha.jpg"),
+  "logo": require("./logo.jpg"),
+  "machina": require("./machina.jpg"),
+  "mellonCollie": require("./mellonCollie.jpg"),
+  "monumentsElegy": require("./monumentsElegy.jpg"),
+  "oceania": require("./oceania.jpg"),
+  "shiny": require("./shiny.jpg"),
+  "siameseDream": require("./siameseDream.jpg"),
+  "sp1": require("./sp1.jpg"),
+  "sp2": require("./sp2.jpg"),
+  "sp3": require("./sp3.jpg"),
+  "zeitgeist": require("./zeitgeist.jpg")
+};
+},{"./adore.jpg":"img/adore.jpg","./BilCor.jpg":"img/BilCor.jpg","./DArcy.jpg":"img/DArcy.jpg","./gish.jpg":"img/gish.jpg","./JamIha.jpg":"img/JamIha.jpg","./JimCha.jpg":"img/JimCha.jpg","./logo.jpg":"img/logo.jpg","./machina.jpg":"img/machina.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./oceania.jpg":"img/oceania.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./sp1.jpg":"img/sp1.jpg","./sp2.jpg":"img/sp2.jpg","./sp3.jpg":"img/sp3.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -18004,6 +18058,8 @@ var _jquery = _interopRequireDefault(require("jquery"));
 require("bootstrap/dist/js/bootstrap.bundle");
 
 require("bootstrap/dist/css/bootstrap.css");
+
+var _ = _interopRequireDefault(require("./img/*.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -18015,13 +18071,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     return result.json();
   }).then(function (data) {
     var dati = data;
-    console.log(dati.length);
     var albumCreation = "",
         songsCreation = "";
 
     for (var i = 0; i < dati.length; i++) {
-      albumCreation += "<div class=\"col col-3>\n                          <div class= \"col-lg-3 col-sm-6 temp\">\n                            <ol class=\"songs\">".concat(dati[i].titolo, " ").concat(dati[i].anno, "\n                            </ol>\n                          </div>\n                          </div>");
-      console.log(albumCreation);
+      albumCreation += "<div class=\"col col-lg-3 col-sm-6 col-12 d-flex justify-content-center align-items-center\">\n                            <ol class=\"titleList songs\"><div class=\"test d-flex justify-content-center align-items-center\">".concat(dati[i].titolo, " ").concat(dati[i].anno, "</div>\n                            <img class=\"albumImg d-flex justify-content-center align-items-center\" src=\"").concat(dati[i].copertina, "\" alt=\"album\"/>\n                            </ol>\n                          \n                          </div>");
       (0, _jquery.default)('.albumInfo').html(albumCreation);
     }
 
@@ -18034,7 +18088,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       try {
         for (var _iterator = dati[_i].canzoni[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
           var j = _step.value;
-          songsCreation += "<li>".concat(j.nome, ", \n                              ").concat(j.durata, "</li>");
+          songsCreation += "<li class=\"center d-flex justify-content-center align-items-center\">".concat(j.nome, ", \n                              ").concat(j.durata, "</li>");
         }
       } catch (err) {
         _didIteratorError = true;
@@ -18058,12 +18112,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var visualizeDiv = function visualizeDiv(click) {
   if (click.siblings('.infoComp').is(':hidden')) {
-    click.siblings('.infoComp').show();
+    click.siblings('.infoComp').slideDown();
   } else {
-    click.siblings('.infoComp').hide();
+    click.siblings('.infoComp').slideUp();
   }
 };
-},{"jquery":"node_modules/jquery/dist/jquery.js","bootstrap/dist/js/bootstrap.bundle":"node_modules/bootstrap/dist/js/bootstrap.bundle.js","bootstrap/dist/css/bootstrap.css":"node_modules/bootstrap/dist/css/bootstrap.css"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"jquery":"node_modules/jquery/dist/jquery.js","bootstrap/dist/js/bootstrap.bundle":"node_modules/bootstrap/dist/js/bootstrap.bundle.js","bootstrap/dist/css/bootstrap.css":"node_modules/bootstrap/dist/css/bootstrap.css","./img/*.jpg":"img/*.jpg"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -18091,7 +18145,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60404" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55400" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

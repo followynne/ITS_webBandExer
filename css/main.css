@@ -1,14 +1,11 @@
 body {
   font-family: "Source Sans Pro";
-  background-color: rgba(110, 7, 7, 0.685) !important;
+  background-color: #D33C33 !important;
 }
 .navbar {
-  font-size: 1.8em;
-  opacity: 0.8;
-}
-a img {
-  width: 50%;
-  height: 50%;
+  font-size: 1.7em;
+  opacity: 0.9;
+  background-color: #CCCCCC
 }
 .navbar-toggler{
   margin-left: auto;
@@ -18,55 +15,65 @@ a img {
   text-align: center
 }
 .nav-link{
-  background-color: cornflowerblue;
+  border: #090909;
   margin: 2px;
   padding: 2px;
   box-sizing: border-box;
 }
-h1 {
-  text-align: center;
+a.nav-link{
+  color: inherit;
+  text-decoration: none;
+}
+a img {
+width: 50%;
+height: 50%;
+}
+h1, h2, h4, h5 {
+  text-align: center
 }
 .descriptionAndImg {
-  
   text-align: justify;
-  font-weight: bold;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 .rowMeasure {
   width: 90%;
 }
 .imgMember {
   width: 100%;
+  padding: 5px;
+}
+.imgContainer {
+height: 300px;
+}
+.biography {
+  color: #CAD0D0;
+  font-style: italic;
+  font-size: 0.9em;
+  background-color:#090909;
+  margin-top: -20px;
 }
 .infoComp {
   display: none;
 }
-/*
-
-.descriptionAndImg img {
-  width: 33%;
-  height: 300px;
+.albumImg {
+   width: 60%;
+   height: 70%;
+   margin-left: auto;
+   margin-right: auto;
 }
-ul {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  list-style-position: inside;
-  font-weight: bold;
-
+.titleList {
+  border: 1px thin slateblue;
+  font-size: 1.2em;
+  color: #CAD0D0;
+  background-color:#110F12;
+  padding: 20px;
 }
-.Members {
-  display: inline-block;
-  text-align: center;
-  width: 24%;
+.test {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center
 }
-.member {
-  width: 400px;
-  height: 200px;
-  overflow: auto; 
-  display: inline-block;
-}
-h3 {
-  font-size: bold;
+.center {
+  text-align: center
 }
