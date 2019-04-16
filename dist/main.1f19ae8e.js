@@ -17772,28 +17772,28 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/BilCor.jpg":[function(require,module,exports) {
-module.exports = "/BilCor.e0a6b8d6.jpg";
-},{}],"img/adore.jpg":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/adore.jpg":[function(require,module,exports) {
 module.exports = "/adore.d8d57c39.jpg";
 },{}],"img/DArcy.jpg":[function(require,module,exports) {
 module.exports = "/DArcy.d74cff11.jpg";
 },{}],"img/gish.jpg":[function(require,module,exports) {
 module.exports = "/gish.d237e108.jpg";
-},{}],"img/JimCha.jpg":[function(require,module,exports) {
-module.exports = "/JimCha.d857fef4.jpg";
+},{}],"img/BilCor.jpg":[function(require,module,exports) {
+module.exports = "/BilCor.e0a6b8d6.jpg";
 },{}],"img/JamIha.jpg":[function(require,module,exports) {
 module.exports = "/JamIha.8f9c08ed.jpg";
-},{}],"img/machina.jpg":[function(require,module,exports) {
-module.exports = "/machina.0eb6064e.jpg";
+},{}],"img/JimCha.jpg":[function(require,module,exports) {
+module.exports = "/JimCha.d857fef4.jpg";
 },{}],"img/logo.jpg":[function(require,module,exports) {
 module.exports = "/logo.6a66554c.jpg";
-},{}],"img/mellonCollie.jpg":[function(require,module,exports) {
-module.exports = "/mellonCollie.4f6df60a.jpg";
+},{}],"img/machina.jpg":[function(require,module,exports) {
+module.exports = "/machina.0eb6064e.jpg";
 },{}],"img/monumentsElegy.jpg":[function(require,module,exports) {
 module.exports = "/monumentsElegy.9ad24950.jpg";
 },{}],"img/oceania.jpg":[function(require,module,exports) {
 module.exports = "/oceania.295740e6.jpg";
+},{}],"img/mellonCollie.jpg":[function(require,module,exports) {
+module.exports = "/mellonCollie.4f6df60a.jpg";
 },{}],"img/shiny.jpg":[function(require,module,exports) {
 module.exports = "/shiny.fb285718.jpg";
 },{}],"img/siameseDream.jpg":[function(require,module,exports) {
@@ -17802,31 +17802,31 @@ module.exports = "/siameseDream.442a8df4.jpg";
 module.exports = "/sp1.80ab6201.jpg";
 },{}],"img/sp2.jpg":[function(require,module,exports) {
 module.exports = "/sp2.73689841.jpg";
-},{}],"img/zeitgeist.jpg":[function(require,module,exports) {
-module.exports = "/zeitgeist.460e295b.jpg";
 },{}],"img/sp3.jpg":[function(require,module,exports) {
 module.exports = "/sp3.692dcee9.jpg";
+},{}],"img/zeitgeist.jpg":[function(require,module,exports) {
+module.exports = "/zeitgeist.460e295b.jpg";
 },{}],"img/*.jpg":[function(require,module,exports) {
 module.exports = {
-  "BilCor": require("./BilCor.jpg"),
   "adore": require("./adore.jpg"),
   "DArcy": require("./DArcy.jpg"),
   "gish": require("./gish.jpg"),
-  "JimCha": require("./JimCha.jpg"),
+  "BilCor": require("./BilCor.jpg"),
   "JamIha": require("./JamIha.jpg"),
-  "machina": require("./machina.jpg"),
+  "JimCha": require("./JimCha.jpg"),
   "logo": require("./logo.jpg"),
-  "mellonCollie": require("./mellonCollie.jpg"),
+  "machina": require("./machina.jpg"),
   "monumentsElegy": require("./monumentsElegy.jpg"),
   "oceania": require("./oceania.jpg"),
+  "mellonCollie": require("./mellonCollie.jpg"),
   "shiny": require("./shiny.jpg"),
   "siameseDream": require("./siameseDream.jpg"),
   "sp1": require("./sp1.jpg"),
   "sp2": require("./sp2.jpg"),
-  "zeitgeist": require("./zeitgeist.jpg"),
-  "sp3": require("./sp3.jpg")
+  "sp3": require("./sp3.jpg"),
+  "zeitgeist": require("./zeitgeist.jpg")
 };
-},{"./BilCor.jpg":"img/BilCor.jpg","./adore.jpg":"img/adore.jpg","./DArcy.jpg":"img/DArcy.jpg","./gish.jpg":"img/gish.jpg","./JimCha.jpg":"img/JimCha.jpg","./JamIha.jpg":"img/JamIha.jpg","./machina.jpg":"img/machina.jpg","./logo.jpg":"img/logo.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./oceania.jpg":"img/oceania.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./sp1.jpg":"img/sp1.jpg","./sp2.jpg":"img/sp2.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg","./sp3.jpg":"img/sp3.jpg"}],"main.js":[function(require,module,exports) {
+},{"./adore.jpg":"img/adore.jpg","./DArcy.jpg":"img/DArcy.jpg","./gish.jpg":"img/gish.jpg","./BilCor.jpg":"img/BilCor.jpg","./JamIha.jpg":"img/JamIha.jpg","./JimCha.jpg":"img/JimCha.jpg","./logo.jpg":"img/logo.jpg","./machina.jpg":"img/machina.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./oceania.jpg":"img/oceania.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./sp1.jpg":"img/sp1.jpg","./sp2.jpg":"img/sp2.jpg","./sp3.jpg":"img/sp3.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -17925,8 +17925,8 @@ var createForm = function createForm(par) {
   fetch('https://raw.githubusercontent.com/dakk/Italia.json/master/italia.json').then(function (res) {
     return res.json();
   }).then(function (data) {
-    var form = "<div class=\"elF col-6 needs-validation\" novalidate>\n                    <form action=\"#\">\n                        <fieldset>\n                        <legend>Hai scelto l'opzione ".concat(par.children('.n').text(), "</legend>\n                        <div class=\"form-group\">\n                            <label for=\"name\">Nome:</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">\n                          </div>\n                          <div class=\"form-group\">\n                                  <label for=\"surname\">Cognome:</label>\n                                  <input type=\"text\" class=\"form-control\" id=\"surname\" placeholder=\"Enter surname\">\n                          </div>\n                          <div class=\"form-group\">\n                                  <label for=\"mail\">E-mail</label>\n                                  <input type=\"email\" class=\"form-control\" id=\"mail\" placeholder=\"Enter email\">\n                          </div>");
-    form += " \n                \n                    <div class=\"form-group\">\n                            <label for=\"tel\">Telephone</label>\n                            <input type=\"tel\" class=\"form-control\" id=\"tel\" placeholder=\"Enter phone number\">\n                    </div>\n                    <div class=\"form-group\">\n                            <label for=\"numTicket\">N. Biglietti</label>\n                            <input type=\"number\" class=\"form-control\" id=\"numTicket\">\n                    </div>\n                    <div class=\"form-group\">\n                    <label>Provincia</label>\n                    <select class=\"custom-select\">\n                          <option>Scegli</option>";
+    var form = "<div class=\"elF col-6 needs-validation\" novalidate>\n                    <form action=\"#\">\n                        <fieldset>\n                        <legend>Hai scelto l'opzione ".concat(par.children('.n').text(), "</legend>\n                        <div class=\"form-group\">\n                            <label for=\"name\">Nome:</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">\n                          </div>\n                        <div class=\"form-group\">\n                                <label for=\"surname\">Cognome:</label>\n                                <input type=\"text\" class=\"form-control\" id=\"surname\" placeholder=\"Enter surname\">\n                        </div>\n                        <div class=\"form-group\">\n                                <label for=\"mail\">E-mail</label>\n                                <input type=\"email\" class=\"form-control\" id=\"mail\" placeholder=\"Enter email\">\n                        </div>");
+    form += "<div class=\"form-group\">\n                  <label for=\"tel\">Telephone</label>\n                  <input type=\"tel\" class=\"form-control\" id=\"tel\" placeholder=\"Enter phone number\">\n              </div>\n              <div class=\"form-group\">\n                  <label for=\"numTicket\">N. Biglietti</label>\n                  <input type=\"number\" class=\"form-control\" id=\"numTicket\">\n              </div>\n              <div class=\"form-group\">\n                  <label>Provincia</label>\n                  <select class=\"selPV custom-select\">\n                    <option>Scegli</option>";
 
     for (var i = 0; i < data.regioni.length; i++) {
       for (var j = 0; j < data.regioni[i].province.length; j++) {
@@ -17934,7 +17934,8 @@ var createForm = function createForm(par) {
       }
     }
 
-    form += "</select></div>\n        <div class=\"form-group\">\n                    <div class=\"col-sm-10\">\n                      <button type=\"submit\" class=\"booked btn btn-primary\">Prenota</button>\n                    </div>\n                    </fieldset>\n                </form>\n             </div>";
+    ;
+    form += "</select></div>\n                <div class=\"form-group d-flex align-items-center\">\n                   <div class=\"col-sm-10\">\n                   <button type=\"submit\" class=\"booked btn btn-primary\">Prenota</button>\n                </div>\n                </fieldset>\n              </form>\n            </div>";
     (0, _jquery.default)('.formAppend').html(form);
     (0, _jquery.default)('form').submit(function (event) {
       event.preventDefault();
@@ -17947,25 +17948,43 @@ var createForm = function createForm(par) {
 
 
 var validateForm = function validateForm() {
-  var errorMsg = '<div>Mi spiace, form incompleto.</div>';
+  var errorMsg = '<div class="Msg">Mi spiace, form incompleto.</div>';
 
   if ((0, _jquery.default)('#name').val() == "") {
     (0, _jquery.default)('#name').siblings('label').append(errorMsg);
+    setTimeout(function () {
+      (0, _jquery.default)('.Msg').fadeOut(500);
+    }, 1000);
     return;
   } else if ((0, _jquery.default)('#surname').val() == "") {
     (0, _jquery.default)('#surname').siblings('label').append(errorMsg);
+    setTimeout(function () {
+      (0, _jquery.default)('.Msg').fadeOut(500);
+    }, 1000);
     return;
   } else if ((0, _jquery.default)('#mail').val() == "") {
     (0, _jquery.default)('#mail').siblings('label').append(errorMsg);
+    setTimeout(function () {
+      (0, _jquery.default)('.Msg').fadeOut(500);
+    }, 1000);
     return;
   } else if ((0, _jquery.default)('#tel').val() == "") {
     (0, _jquery.default)('#tel').siblings('label').append(errorMsg);
+    setTimeout(function () {
+      (0, _jquery.default)('.Msg').fadeOut(500);
+    }, 1000);
     return;
-  } else if ((0, _jquery.default)('#numTicket').val() == "") {
+  } else if ((0, _jquery.default)('#numTicket').val() == "" || (0, _jquery.default)('#numTicket').val() < 1) {
     (0, _jquery.default)('#numTicket').siblings('label').append(errorMsg);
+    setTimeout(function () {
+      (0, _jquery.default)('.Msg').fadeOut(500);
+    }, 1000);
     return;
-  } else if ((0, _jquery.default)('option:selected') == "") {
-    (0, _jquery.default)('').siblings('label').append(errorMsg);
+  } else if ((0, _jquery.default)('.selPV option:selected').val() == "Scegli") {
+    (0, _jquery.default)('.selPV').siblings('label').append(errorMsg);
+    setTimeout(function () {
+      (0, _jquery.default)('.Msg').fadeOut(500);
+    }, 1000);
     return;
   }
 
@@ -18000,7 +18019,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50073" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50683" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

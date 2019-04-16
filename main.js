@@ -48,9 +48,7 @@ $(document).ready(() => {
           }
         })
   });
-
 });
-
 
 const visualizeDiv = (click) => {
   if (click.siblings('.infoComp').is(':hidden')){
@@ -103,45 +101,41 @@ const createForm = (par) => {
                             <label for="name">Nome:</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter name">
                           </div>
-                          <div class="form-group">
-                                  <label for="surname">Cognome:</label>
-                                  <input type="text" class="form-control" id="surname" placeholder="Enter surname">
-                          </div>
-                          <div class="form-group">
-                                  <label for="mail">E-mail</label>
-                                  <input type="email" class="form-control" id="mail" placeholder="Enter email">
-                          </div>`
-                         
-
-      form += ` 
-                
-                    <div class="form-group">
-                            <label for="tel">Telephone</label>
-                            <input type="tel" class="form-control" id="tel" placeholder="Enter phone number">
-                    </div>
-                    <div class="form-group">
-                            <label for="numTicket">N. Biglietti</label>
-                            <input type="number" class="form-control" id="numTicket">
-                    </div>
-                    <div class="form-group">
-                    <label>Provincia</label>
-                    <select class="custom-select">
-                          <option>Scegli</option>`;
-       for (let i=0; i<data.regioni.length; i++){
-              for (let j=0; j<data.regioni[i].province.length; j++){
-                  form += `<option>${data.regioni[i].province[j]}</option>`
-              }
-          }
+                        <div class="form-group">
+                                <label for="surname">Cognome:</label>
+                                <input type="text" class="form-control" id="surname" placeholder="Enter surname">
+                        </div>
+                        <div class="form-group">
+                                <label for="mail">E-mail</label>
+                                <input type="email" class="form-control" id="mail" placeholder="Enter email">
+                        </div>`
+      form += `<div class="form-group">
+                  <label for="tel">Telephone</label>
+                  <input type="tel" class="form-control" id="tel" placeholder="Enter phone number">
+              </div>
+              <div class="form-group">
+                  <label for="numTicket">N. Biglietti</label>
+                  <input type="number" class="form-control" id="numTicket">
+              </div>
+              <div class="form-group">
+                  <label>Provincia</label>
+                  <select class="selPV custom-select">
+                    <option>Scegli</option>`;
+                    for (let i=0; i<data.regioni.length; i++){
+                        for (let j=0; j<data.regioni[i].province.length; j++){
+                           form += `<option>${data.regioni[i].province[j]}</option>`;
+                        }
+                    };
         form += `</select></div>
-        <div class="form-group">
-                    <div class="col-sm-10">
-                      <button type="submit" class="booked btn btn-primary">Prenota</button>
-                    </div>
-                    </fieldset>
-                </form>
-             </div>`
+                <div class="form-group d-flex align-items-center">
+                   <div class="col-sm-10">
+                   <button type="submit" class="booked btn btn-primary">Prenota</button>
+                </div>
+                </fieldset>
+              </form>
+            </div>`;
+
       $('.formAppend').html(form);
-      
       $('form').submit((event) => {
         event.preventDefault();
         validateForm();
@@ -155,27 +149,45 @@ const createForm = (par) => {
 
 const validateForm = () => {
 
-      let errorMsg = '<div>Mi spiace, form incompleto.</div>';
+      let errorMsg = '<div class="Msg">Mi spiace, form incompleto.</div>';
 
       if ($('#name').val() == ""){
-          $('#name').siblings('label').append(errorMsg);
-          return;
-      } else if ($('#surname').val() == ""){
-        $('#surname').siblings('label').append(errorMsg) 
+        $('#name').siblings('label').append(errorMsg);
+          setTimeout(() => {
+            $('.Msg').fadeOut(500);
+        }, 1000);
         return;
+      } else if ($('#surname').val() == ""){
+          $('#surname').siblings('label').append(errorMsg);
+          setTimeout(() => {
+            $('.Msg').fadeOut(500);
+        }, 1000);
+          return;
       } else if ($('#mail').val() == ""){
         $('#mail').siblings('label').append(errorMsg);
+        setTimeout(() => {
+          $('.Msg').fadeOut(500);
+      }, 1000);
         return;
       } else if ($('#tel').val() == ""){
         $('#tel').siblings('label').append(errorMsg);
+        setTimeout(() => {
+          $('.Msg').fadeOut(500);
+      }, 1000);
         return;
-      } else if ($('#numTicket').val() == ""){
+      } else if ($('#numTicket').val() == "" || $('#numTicket').val() < 1){
         $('#numTicket').siblings('label').append(errorMsg);
+        setTimeout(() => {
+          $('.Msg').fadeOut(500);
+      }, 1000);
         return;
-      } else if ($('option:selected') == ""){
-        $('').siblings('label').append(errorMsg);
+      } else if ($('.selPV option:selected').val() == "Scegli"){
+        $('.selPV').siblings('label').append(errorMsg);
+        setTimeout(() => {
+          $('.Msg').fadeOut(500);
+      }, 1000);
         return;
-      } 
+      }
 
       $('.elF').hide();
       $('.formAppend').append('<div>Complimenti, hai prenotato il concerto!');
