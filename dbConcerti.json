@@ -1,0 +1,39 @@
+{
+    "concerti":[
+        {
+            "Day": "20/05/2019",
+            "Hr": "22:00",
+            "Place": "Hiroshima Mon Amour - Turin",
+            "TicketPrice": "35€",
+            "Available": "y"
+        },
+        {
+            "day": "22/05/2019",
+            "hr": "21:30",
+            "place": "SwagCaneFracico House - Milan",
+            "ticketPrice": "110€",
+            "Available": "y"
+        },
+        {
+            "day": "27/06/2019",
+            "hr": "18:15",
+            "place": "Gods of Metal - Berlin",
+            "ticketPrice": "25€",
+            "Available": "n"
+        },
+        {
+            "day": "15/07/2019",
+            "hr": "23:15",
+            "place": "Opera House - Copenaghen",
+            "ticketPrice": "140€",
+            "Available": "y"
+        },
+        {
+            "day": "16/07/2019",
+            "hr": "17:00",
+            "place": "Madame ZuZu’s Tea Shop - Chicago",
+            "ticketPrice": "10€",
+            "Available": "n"
+        }
+    ]
+}
