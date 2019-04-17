@@ -93,7 +93,7 @@ const createTableConcerti = (par) => {
 
 const createForm = (par) => {
     fetch('https://raw.githubusercontent.com/dakk/Italia.json/master/italia.json').then((res) => res.json()).then((data) => {
-      let form = `<div class="elF col-6 needs-validation" novalidate>
+      let form = `<div class="elF col-5 needs-validation" novalidate>
                     <form action="#">
                         <fieldset>
                         <legend>Hai scelto l'opzione ${par.children('.n').text()}</legend>
@@ -127,7 +127,7 @@ const createForm = (par) => {
                         }
                     };
         form += `</select></div>
-                <div class="form-group d-flex align-items-center">
+                <div class="form-group ">
                    <div class="col-sm-10">
                    <button type="submit" class="booked btn btn-primary">Prenota</button>
                 </div>

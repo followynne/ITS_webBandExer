@@ -17774,59 +17774,59 @@ module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"_css_loader":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/adore.jpg":[function(require,module,exports) {
 module.exports = "/adore.d8d57c39.jpg";
+},{}],"img/BilCor.jpg":[function(require,module,exports) {
+module.exports = "/BilCor.e0a6b8d6.jpg";
 },{}],"img/DArcy.jpg":[function(require,module,exports) {
 module.exports = "/DArcy.d74cff11.jpg";
 },{}],"img/gish.jpg":[function(require,module,exports) {
 module.exports = "/gish.d237e108.jpg";
-},{}],"img/BilCor.jpg":[function(require,module,exports) {
-module.exports = "/BilCor.e0a6b8d6.jpg";
-},{}],"img/JamIha.jpg":[function(require,module,exports) {
-module.exports = "/JamIha.8f9c08ed.jpg";
 },{}],"img/JimCha.jpg":[function(require,module,exports) {
 module.exports = "/JimCha.d857fef4.jpg";
 },{}],"img/logo.jpg":[function(require,module,exports) {
 module.exports = "/logo.6a66554c.jpg";
+},{}],"img/JamIha.jpg":[function(require,module,exports) {
+module.exports = "/JamIha.8f9c08ed.jpg";
 },{}],"img/machina.jpg":[function(require,module,exports) {
 module.exports = "/machina.0eb6064e.jpg";
 },{}],"img/monumentsElegy.jpg":[function(require,module,exports) {
 module.exports = "/monumentsElegy.9ad24950.jpg";
-},{}],"img/oceania.jpg":[function(require,module,exports) {
-module.exports = "/oceania.295740e6.jpg";
 },{}],"img/mellonCollie.jpg":[function(require,module,exports) {
 module.exports = "/mellonCollie.4f6df60a.jpg";
 },{}],"img/shiny.jpg":[function(require,module,exports) {
 module.exports = "/shiny.fb285718.jpg";
 },{}],"img/siameseDream.jpg":[function(require,module,exports) {
 module.exports = "/siameseDream.442a8df4.jpg";
+},{}],"img/oceania.jpg":[function(require,module,exports) {
+module.exports = "/oceania.295740e6.jpg";
 },{}],"img/sp1.jpg":[function(require,module,exports) {
 module.exports = "/sp1.80ab6201.jpg";
-},{}],"img/sp2.jpg":[function(require,module,exports) {
-module.exports = "/sp2.73689841.jpg";
 },{}],"img/sp3.jpg":[function(require,module,exports) {
 module.exports = "/sp3.692dcee9.jpg";
 },{}],"img/zeitgeist.jpg":[function(require,module,exports) {
 module.exports = "/zeitgeist.460e295b.jpg";
+},{}],"img/sp2.jpg":[function(require,module,exports) {
+module.exports = "/sp2.73689841.jpg";
 },{}],"img/*.jpg":[function(require,module,exports) {
 module.exports = {
   "adore": require("./adore.jpg"),
+  "BilCor": require("./BilCor.jpg"),
   "DArcy": require("./DArcy.jpg"),
   "gish": require("./gish.jpg"),
-  "BilCor": require("./BilCor.jpg"),
-  "JamIha": require("./JamIha.jpg"),
   "JimCha": require("./JimCha.jpg"),
   "logo": require("./logo.jpg"),
+  "JamIha": require("./JamIha.jpg"),
   "machina": require("./machina.jpg"),
   "monumentsElegy": require("./monumentsElegy.jpg"),
-  "oceania": require("./oceania.jpg"),
   "mellonCollie": require("./mellonCollie.jpg"),
   "shiny": require("./shiny.jpg"),
   "siameseDream": require("./siameseDream.jpg"),
+  "oceania": require("./oceania.jpg"),
   "sp1": require("./sp1.jpg"),
-  "sp2": require("./sp2.jpg"),
   "sp3": require("./sp3.jpg"),
-  "zeitgeist": require("./zeitgeist.jpg")
+  "zeitgeist": require("./zeitgeist.jpg"),
+  "sp2": require("./sp2.jpg")
 };
-},{"./adore.jpg":"img/adore.jpg","./DArcy.jpg":"img/DArcy.jpg","./gish.jpg":"img/gish.jpg","./BilCor.jpg":"img/BilCor.jpg","./JamIha.jpg":"img/JamIha.jpg","./JimCha.jpg":"img/JimCha.jpg","./logo.jpg":"img/logo.jpg","./machina.jpg":"img/machina.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./oceania.jpg":"img/oceania.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./sp1.jpg":"img/sp1.jpg","./sp2.jpg":"img/sp2.jpg","./sp3.jpg":"img/sp3.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg"}],"main.js":[function(require,module,exports) {
+},{"./adore.jpg":"img/adore.jpg","./BilCor.jpg":"img/BilCor.jpg","./DArcy.jpg":"img/DArcy.jpg","./gish.jpg":"img/gish.jpg","./JimCha.jpg":"img/JimCha.jpg","./logo.jpg":"img/logo.jpg","./JamIha.jpg":"img/JamIha.jpg","./machina.jpg":"img/machina.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./oceania.jpg":"img/oceania.jpg","./sp1.jpg":"img/sp1.jpg","./sp3.jpg":"img/sp3.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg","./sp2.jpg":"img/sp2.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -17925,7 +17925,7 @@ var createForm = function createForm(par) {
   fetch('https://raw.githubusercontent.com/dakk/Italia.json/master/italia.json').then(function (res) {
     return res.json();
   }).then(function (data) {
-    var form = "<div class=\"elF col-6 needs-validation\" novalidate>\n                    <form action=\"#\">\n                        <fieldset>\n                        <legend>Hai scelto l'opzione ".concat(par.children('.n').text(), "</legend>\n                        <div class=\"form-group\">\n                            <label for=\"name\">Nome:</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">\n                          </div>\n                        <div class=\"form-group\">\n                                <label for=\"surname\">Cognome:</label>\n                                <input type=\"text\" class=\"form-control\" id=\"surname\" placeholder=\"Enter surname\">\n                        </div>\n                        <div class=\"form-group\">\n                                <label for=\"mail\">E-mail</label>\n                                <input type=\"email\" class=\"form-control\" id=\"mail\" placeholder=\"Enter email\">\n                        </div>");
+    var form = "<div class=\"elF col-5 needs-validation\" novalidate>\n                    <form action=\"#\">\n                        <fieldset>\n                        <legend>Hai scelto l'opzione ".concat(par.children('.n').text(), "</legend>\n                        <div class=\"form-group\">\n                            <label for=\"name\">Nome:</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">\n                          </div>\n                        <div class=\"form-group\">\n                                <label for=\"surname\">Cognome:</label>\n                                <input type=\"text\" class=\"form-control\" id=\"surname\" placeholder=\"Enter surname\">\n                        </div>\n                        <div class=\"form-group\">\n                                <label for=\"mail\">E-mail</label>\n                                <input type=\"email\" class=\"form-control\" id=\"mail\" placeholder=\"Enter email\">\n                        </div>");
     form += "<div class=\"form-group\">\n                  <label for=\"tel\">Telephone</label>\n                  <input type=\"tel\" class=\"form-control\" id=\"tel\" placeholder=\"Enter phone number\">\n              </div>\n              <div class=\"form-group\">\n                  <label for=\"numTicket\">N. Biglietti</label>\n                  <input type=\"number\" class=\"form-control\" id=\"numTicket\">\n              </div>\n              <div class=\"form-group\">\n                  <label>Provincia</label>\n                  <select class=\"selPV custom-select\">\n                    <option>Scegli</option>";
 
     for (var i = 0; i < data.regioni.length; i++) {
@@ -18019,7 +18019,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50683" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51288" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
