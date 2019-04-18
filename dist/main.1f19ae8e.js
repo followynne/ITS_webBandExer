@@ -17772,61 +17772,61 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/adore.jpg":[function(require,module,exports) {
-module.exports = "/adore.d8d57c39.jpg";
-},{}],"img/BilCor.jpg":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"img/BilCor.jpg":[function(require,module,exports) {
 module.exports = "/BilCor.e0a6b8d6.jpg";
+},{}],"img/adore.jpg":[function(require,module,exports) {
+module.exports = "/adore.d8d57c39.jpg";
 },{}],"img/DArcy.jpg":[function(require,module,exports) {
 module.exports = "/DArcy.d74cff11.jpg";
+},{}],"img/JamIha.jpg":[function(require,module,exports) {
+module.exports = "/JamIha.8f9c08ed.jpg";
 },{}],"img/gish.jpg":[function(require,module,exports) {
 module.exports = "/gish.d237e108.jpg";
 },{}],"img/JimCha.jpg":[function(require,module,exports) {
 module.exports = "/JimCha.d857fef4.jpg";
 },{}],"img/logo.jpg":[function(require,module,exports) {
 module.exports = "/logo.6a66554c.jpg";
-},{}],"img/JamIha.jpg":[function(require,module,exports) {
-module.exports = "/JamIha.8f9c08ed.jpg";
 },{}],"img/machina.jpg":[function(require,module,exports) {
 module.exports = "/machina.0eb6064e.jpg";
-},{}],"img/monumentsElegy.jpg":[function(require,module,exports) {
-module.exports = "/monumentsElegy.9ad24950.jpg";
 },{}],"img/mellonCollie.jpg":[function(require,module,exports) {
 module.exports = "/mellonCollie.4f6df60a.jpg";
+},{}],"img/oceania.jpg":[function(require,module,exports) {
+module.exports = "/oceania.295740e6.jpg";
 },{}],"img/shiny.jpg":[function(require,module,exports) {
 module.exports = "/shiny.fb285718.jpg";
 },{}],"img/siameseDream.jpg":[function(require,module,exports) {
 module.exports = "/siameseDream.442a8df4.jpg";
-},{}],"img/oceania.jpg":[function(require,module,exports) {
-module.exports = "/oceania.295740e6.jpg";
+},{}],"img/monumentsElegy.jpg":[function(require,module,exports) {
+module.exports = "/monumentsElegy.9ad24950.jpg";
 },{}],"img/sp1.jpg":[function(require,module,exports) {
 module.exports = "/sp1.80ab6201.jpg";
+},{}],"img/sp2.jpg":[function(require,module,exports) {
+module.exports = "/sp2.73689841.jpg";
 },{}],"img/sp3.jpg":[function(require,module,exports) {
 module.exports = "/sp3.692dcee9.jpg";
 },{}],"img/zeitgeist.jpg":[function(require,module,exports) {
 module.exports = "/zeitgeist.460e295b.jpg";
-},{}],"img/sp2.jpg":[function(require,module,exports) {
-module.exports = "/sp2.73689841.jpg";
 },{}],"img/*.jpg":[function(require,module,exports) {
 module.exports = {
-  "adore": require("./adore.jpg"),
   "BilCor": require("./BilCor.jpg"),
+  "adore": require("./adore.jpg"),
   "DArcy": require("./DArcy.jpg"),
+  "JamIha": require("./JamIha.jpg"),
   "gish": require("./gish.jpg"),
   "JimCha": require("./JimCha.jpg"),
   "logo": require("./logo.jpg"),
-  "JamIha": require("./JamIha.jpg"),
   "machina": require("./machina.jpg"),
-  "monumentsElegy": require("./monumentsElegy.jpg"),
   "mellonCollie": require("./mellonCollie.jpg"),
+  "oceania": require("./oceania.jpg"),
   "shiny": require("./shiny.jpg"),
   "siameseDream": require("./siameseDream.jpg"),
-  "oceania": require("./oceania.jpg"),
+  "monumentsElegy": require("./monumentsElegy.jpg"),
   "sp1": require("./sp1.jpg"),
+  "sp2": require("./sp2.jpg"),
   "sp3": require("./sp3.jpg"),
-  "zeitgeist": require("./zeitgeist.jpg"),
-  "sp2": require("./sp2.jpg")
+  "zeitgeist": require("./zeitgeist.jpg")
 };
-},{"./adore.jpg":"img/adore.jpg","./BilCor.jpg":"img/BilCor.jpg","./DArcy.jpg":"img/DArcy.jpg","./gish.jpg":"img/gish.jpg","./JimCha.jpg":"img/JimCha.jpg","./logo.jpg":"img/logo.jpg","./JamIha.jpg":"img/JamIha.jpg","./machina.jpg":"img/machina.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./oceania.jpg":"img/oceania.jpg","./sp1.jpg":"img/sp1.jpg","./sp3.jpg":"img/sp3.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg","./sp2.jpg":"img/sp2.jpg"}],"main.js":[function(require,module,exports) {
+},{"./BilCor.jpg":"img/BilCor.jpg","./adore.jpg":"img/adore.jpg","./DArcy.jpg":"img/DArcy.jpg","./JamIha.jpg":"img/JamIha.jpg","./gish.jpg":"img/gish.jpg","./JimCha.jpg":"img/JimCha.jpg","./logo.jpg":"img/logo.jpg","./machina.jpg":"img/machina.jpg","./mellonCollie.jpg":"img/mellonCollie.jpg","./oceania.jpg":"img/oceania.jpg","./shiny.jpg":"img/shiny.jpg","./siameseDream.jpg":"img/siameseDream.jpg","./monumentsElegy.jpg":"img/monumentsElegy.jpg","./sp1.jpg":"img/sp1.jpg","./sp2.jpg":"img/sp2.jpg","./sp3.jpg":"img/sp3.jpg","./zeitgeist.jpg":"img/zeitgeist.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -17914,7 +17914,7 @@ var createTableConcerti = function createTableConcerti(par) {
   var table = "<div class=\"col\">\n                  <table class=\"table\">\n                    <thead class=\"thead-dark\">\n                      <tr>\n                        <th scope=\"col\">#</th>\n                        <th scope=\"col\">".concat(Object.keys(par[0])[0], "</th>\n                        <th scope=\"col\">").concat(Object.keys(par[0])[1], "</th>\n                        <th scope=\"col\">").concat(Object.keys(par[0])[2], "</th>\n                        <th scope=\"col\">Ticket Price</th>\n                        <th scope=\"col\">").concat(Object.keys(par[0])[4], "</th>\n                        <th scope=\"col\">Prenota il tuo biglietto!</th>\n                      </tr>\n                    </thead>\n                    <tbody>");
 
   for (var i = 0; i < par.length; i++) {
-    table += "<tr class=\"cl\">\n                      <th class=\"n\" scope=\"row\">".concat(i + 1, "</th>\n                      <td>").concat(par[i].Day, "</td>\n                      <td>").concat(par[i].Hr, "</td>\n                      <td>").concat(par[i].Place, "</td>\n                      <td>").concat(par[i].TicketPrice, "</td>\n                      <td class= \"av\">").concat(par[i].Available, "</td>\n                      <td class=\"clickBtt\"><input type=\"button\" value=\"Prenota!\" class=\"bookedButton\"></button></td>\n                  </tr>");
+    table += "<tr class=\"cl\">\n                      <th class=\"n\" scope=\"row\">".concat(i + 1, "</th>\n                      <td class=\"d\">").concat(par[i].Day, "</td>\n                      <td class=\"h\">").concat(par[i].Hr, "</td>\n                      <td class=\"p\">").concat(par[i].Place, "</td>\n                      <td class=\"t\">").concat(par[i].TicketPrice, "</td>\n                      <td class= \"av\">").concat(par[i].Available, "</td>\n                      <td class=\"clickBtt\"><input type=\"button\" value=\"Prenota!\" class=\"bookedButton\"></button></td>\n                  </tr>");
   }
 
   table += "    </tbody>\n                </table>\n              </div>";
@@ -17925,8 +17925,8 @@ var createForm = function createForm(par) {
   fetch('https://raw.githubusercontent.com/dakk/Italia.json/master/italia.json').then(function (res) {
     return res.json();
   }).then(function (data) {
-    var form = "<div class=\"elF col-5 needs-validation\" novalidate>\n                    <form action=\"#\">\n                        <fieldset>\n                        <legend>Hai scelto l'opzione ".concat(par.children('.n').text(), "</legend>\n                        <div class=\"form-group\">\n                            <label for=\"name\">Nome:</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">\n                          </div>\n                        <div class=\"form-group\">\n                                <label for=\"surname\">Cognome:</label>\n                                <input type=\"text\" class=\"form-control\" id=\"surname\" placeholder=\"Enter surname\">\n                        </div>\n                        <div class=\"form-group\">\n                                <label for=\"mail\">E-mail</label>\n                                <input type=\"email\" class=\"form-control\" id=\"mail\" placeholder=\"Enter email\">\n                        </div>");
-    form += "<div class=\"form-group\">\n                  <label for=\"tel\">Telephone</label>\n                  <input type=\"tel\" class=\"form-control\" id=\"tel\" placeholder=\"Enter phone number\">\n              </div>\n              <div class=\"form-group\">\n                  <label for=\"numTicket\">N. Biglietti</label>\n                  <input type=\"number\" class=\"form-control\" id=\"numTicket\">\n              </div>\n              <div class=\"form-group\">\n                  <label>Provincia</label>\n                  <select class=\"selPV custom-select\">\n                    <option>Scegli</option>";
+    var form = "<div class=\"elF col-4 needs-validation\" novalidate>\n                    <form action=\"#\">\n                        <fieldset>\n                        <legend>Hai scelto l'opzione ".concat(par.children('.n').text(), ":</legend>\n                        <legend>").concat(par.children('.d').text(), ", ").concat(par.children('.h').text(), "</legend>\n                        <legend>").concat(par.children('.p').text(), ", ").concat(par.children('.t').text(), "</legend>\n\n\n                        <div class=\"form-group\">\n                            <label for=\"name\">Nome:</label>\n                            <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Enter name\">\n                          </div>\n                        <div class=\"form-group\">\n                                <label for=\"surname\">Cognome:</label>\n                                <input type=\"text\" class=\"form-control\" id=\"surname\" placeholder=\"Enter surname\">\n                        </div>\n                        <div class=\"form-group\">\n                                <label for=\"mail\">E-mail</label>\n                                <input type=\"email\" class=\"form-control\" id=\"mail\" placeholder=\"Enter email\">\n                        </div>");
+    form += "<div class=\"form-row\">\n                \n              <div class=\"form-group col-3\">\n                  <label for=\"prefix\">Prefix</label>\n                  <input type=\"number\" class=\"form-control\" id=\"prefix\" placeholder=\"+\">\n              </div>\n              <div class=\"form-group col-9\">\n                  <label for=\"tel\">Telephone</label>\n                  <input type=\"tel\" class=\"form-control\" id=\"tel\" placeholder=\"Enter phone number\">\n              </div>\n              </div>\n              <div class=\"form-group\">\n                  <label for=\"numTicket\">N. Biglietti</label>\n                  <input type=\"number\" class=\"form-control\" id=\"numTicket\">\n              </div>\n              <div class=\"form-group\">\n                  <label>Provincia</label>\n                  <select class=\"selPV custom-select\">\n                    <option>Scegli</option>";
 
     for (var i = 0; i < data.regioni.length; i++) {
       for (var j = 0; j < data.regioni[i].province.length; j++) {
@@ -17935,62 +17935,74 @@ var createForm = function createForm(par) {
     }
 
     ;
-    form += "</select></div>\n                <div class=\"form-group d-flex align-items-center\">\n                   <div class=\"col-sm-10\">\n                   <button type=\"submit\" class=\"booked btn btn-primary\">Prenota</button>\n                </div>\n                </fieldset>\n              </form>\n            </div>";
+    form += "</select></div>\n                <div class=\"form-group d-flex justify-content-center\">\n                   <div class=\"col-sm-10\">\n                   <button type=\"submit\" class=\"booked btn btn-primary\">Prenota</button>\n                </div>\n                </fieldset>\n              </form>\n            </div>";
     (0, _jquery.default)('.formAppend').html(form);
     (0, _jquery.default)('form').submit(function (event) {
       event.preventDefault();
-      validateForm();
+      validateForm(par);
     });
   });
-}; // Avviso: Rispetto alle richieste, non funzionano il controllo del form nei casi di:
-// - telefono inserito non completo o non corretto
-// - provincia non indicata.
+};
 
-
-var validateForm = function validateForm() {
+var validateForm = function validateForm(par) {
   var errorMsg = '<div class="Msg">Mi spiace, form incompleto.</div>';
 
   if ((0, _jquery.default)('#name').val() == "") {
     (0, _jquery.default)('#name').siblings('label').append(errorMsg);
     setTimeout(function () {
-      (0, _jquery.default)('.Msg').fadeOut(500);
-    }, 1000);
+      (0, _jquery.default)('.Msg').fadeOut(400);
+    }, 400);
     return;
   } else if ((0, _jquery.default)('#surname').val() == "") {
     (0, _jquery.default)('#surname').siblings('label').append(errorMsg);
     setTimeout(function () {
-      (0, _jquery.default)('.Msg').fadeOut(500);
-    }, 1000);
+      (0, _jquery.default)('.Msg').fadeOut(400);
+    }, 400);
     return;
   } else if ((0, _jquery.default)('#mail').val() == "") {
     (0, _jquery.default)('#mail').siblings('label').append(errorMsg);
     setTimeout(function () {
-      (0, _jquery.default)('.Msg').fadeOut(500);
-    }, 1000);
+      (0, _jquery.default)('.Msg').fadeOut(400);
+    }, 400);
     return;
-  } else if ((0, _jquery.default)('#tel').val() == "") {
+  } else if ((0, _jquery.default)('#tel').val() == "" || (0, _jquery.default)('#tel').val().length < 10 || (0, _jquery.default)('#tel').val().length > 15) {
     (0, _jquery.default)('#tel').siblings('label').append(errorMsg);
     setTimeout(function () {
-      (0, _jquery.default)('.Msg').fadeOut(500);
-    }, 1000);
+      (0, _jquery.default)('.Msg').fadeOut(400);
+    }, 400);
     return;
   } else if ((0, _jquery.default)('#numTicket').val() == "" || (0, _jquery.default)('#numTicket').val() < 1) {
     (0, _jquery.default)('#numTicket').siblings('label').append(errorMsg);
     setTimeout(function () {
-      (0, _jquery.default)('.Msg').fadeOut(500);
-    }, 1000);
+      (0, _jquery.default)('.Msg').fadeOut(400);
+    }, 400);
     return;
   } else if ((0, _jquery.default)('.selPV option:selected').val() == "Scegli") {
     (0, _jquery.default)('.selPV').siblings('label').append(errorMsg);
     setTimeout(function () {
-      (0, _jquery.default)('.Msg').fadeOut(500);
-    }, 1000);
+      (0, _jquery.default)('.Msg').fadeOut(400);
+    }, 400);
     return;
   }
 
   (0, _jquery.default)('.elF').hide();
-  (0, _jquery.default)('.formAppend').append('<div>Complimenti, hai prenotato il concerto!');
-};
+  var stringConfirm = "<div class=\"titleList\"><div>Complimenti, hai prenotato il concerto!</div>\n                          <div>".concat(par.children('.d').text(), ", ").concat(par.children('.h').text(), ",\n                          ").concat(par.children('.p').text(), ", ").concat(par.children('.t').text(), ", Biglietti: ").concat((0, _jquery.default)('#numTicket').val(), "</div></div>");
+  (0, _jquery.default)('.formAppend').append(stringConfirm);
+}; // validation Mail - function copied from net
+
+/* function validateEmail(sEmail) {
+    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    if (filter.test(sEmail)) {
+        return true;
+    }
+    else {
+       return false;
+   }
+
+// add to else if for mail
+  !(validateEmail($('#tel').val()))
+}
+ */
 },{"jquery":"node_modules/jquery/dist/jquery.js","bootstrap/dist/js/bootstrap.bundle":"node_modules/bootstrap/dist/js/bootstrap.bundle.js","bootstrap/dist/css/bootstrap.css":"node_modules/bootstrap/dist/css/bootstrap.css","./img/*.jpg":"img/*.jpg"}],"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -18019,7 +18031,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51288" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65364" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -77,10 +77,10 @@ const createTableConcerti = (par) => {
     for (let i=0; i < par.length; i++){
         table += `<tr class="cl">
                       <th class="n" scope="row">${i+1}</th>
-                      <td>${par[i].Day}</td>
-                      <td>${par[i].Hr}</td>
-                      <td>${par[i].Place}</td>
-                      <td>${par[i].TicketPrice}</td>
+                      <td class="d">${par[i].Day}</td>
+                      <td class="h">${par[i].Hr}</td>
+                      <td class="p">${par[i].Place}</td>
+                      <td class="t">${par[i].TicketPrice}</td>
                       <td class= "av">${par[i].Available}</td>
                       <td class="clickBtt"><input type="button" value="Prenota!" class="bookedButton"></button></td>
                   </tr>`
@@ -93,10 +93,14 @@ const createTableConcerti = (par) => {
 
 const createForm = (par) => {
     fetch('https://raw.githubusercontent.com/dakk/Italia.json/master/italia.json').then((res) => res.json()).then((data) => {
-      let form = `<div class="elF col-5 needs-validation" novalidate>
+      let form = `<div class="elF col-4 needs-validation" novalidate>
                     <form action="#">
                         <fieldset>
-                        <legend>Hai scelto l'opzione ${par.children('.n').text()}</legend>
+                        <legend>Hai scelto l'opzione ${par.children('.n').text()}:</legend>
+                        <legend>${par.children('.d').text()}, ${par.children('.h').text()}</legend>
+                        <legend>${par.children('.p').text()}, ${par.children('.t').text()}</legend>
+
+
                         <div class="form-group">
                             <label for="name">Nome:</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter name">
@@ -109,9 +113,16 @@ const createForm = (par) => {
                                 <label for="mail">E-mail</label>
                                 <input type="email" class="form-control" id="mail" placeholder="Enter email">
                         </div>`
-      form += `<div class="form-group">
+      form += `<div class="form-row">
+                
+              <div class="form-group col-3">
+                  <label for="prefix">Prefix</label>
+                  <input type="number" class="form-control" id="prefix" placeholder="+">
+              </div>
+              <div class="form-group col-9">
                   <label for="tel">Telephone</label>
                   <input type="tel" class="form-control" id="tel" placeholder="Enter phone number">
+              </div>
               </div>
               <div class="form-group">
                   <label for="numTicket">N. Biglietti</label>
@@ -127,7 +138,7 @@ const createForm = (par) => {
                         }
                     };
         form += `</select></div>
-                <div class="form-group ">
+                <div class="form-group d-flex justify-content-center">
                    <div class="col-sm-10">
                    <button type="submit" class="booked btn btn-primary">Prenota</button>
                 </div>
@@ -138,57 +149,72 @@ const createForm = (par) => {
       $('.formAppend').html(form);
       $('form').submit((event) => {
         event.preventDefault();
-        validateForm();
+        validateForm(par);
       })
   })
 }
 
-// Avviso: Rispetto alle richieste, non funzionano il controllo del form nei casi di:
-// - telefono inserito non completo o non corretto
-// - provincia non indicata.
-
-const validateForm = () => {
+const validateForm = (par) => {
 
       let errorMsg = '<div class="Msg">Mi spiace, form incompleto.</div>';
 
       if ($('#name').val() == ""){
         $('#name').siblings('label').append(errorMsg);
           setTimeout(() => {
-            $('.Msg').fadeOut(500);
-        }, 1000);
+            $('.Msg').fadeOut(400);
+        }, 400);
         return;
       } else if ($('#surname').val() == ""){
           $('#surname').siblings('label').append(errorMsg);
           setTimeout(() => {
-            $('.Msg').fadeOut(500);
-        }, 1000);
+            $('.Msg').fadeOut(400);
+        }, 400);
           return;
       } else if ($('#mail').val() == ""){
         $('#mail').siblings('label').append(errorMsg);
         setTimeout(() => {
-          $('.Msg').fadeOut(500);
-      }, 1000);
+          $('.Msg').fadeOut(400);
+      }, 400);
         return;
-      } else if ($('#tel').val() == ""){
+      } else if ($('#tel').val() == "" || $('#tel').val().length < 10 || $('#tel').val().length > 15){
         $('#tel').siblings('label').append(errorMsg);
         setTimeout(() => {
-          $('.Msg').fadeOut(500);
-      }, 1000);
+          $('.Msg').fadeOut(400);
+      }, 400);
         return;
       } else if ($('#numTicket').val() == "" || $('#numTicket').val() < 1){
         $('#numTicket').siblings('label').append(errorMsg);
         setTimeout(() => {
-          $('.Msg').fadeOut(500);
-      }, 1000);
+          $('.Msg').fadeOut(400);
+      }, 400);
         return;
       } else if ($('.selPV option:selected').val() == "Scegli"){
         $('.selPV').siblings('label').append(errorMsg);
         setTimeout(() => {
-          $('.Msg').fadeOut(500);
-      }, 1000);
+          $('.Msg').fadeOut(400);
+      }, 400);
         return;
       }
 
       $('.elF').hide();
-      $('.formAppend').append('<div>Complimenti, hai prenotato il concerto!');
+      let stringConfirm = `<div class="titleList"><div>Complimenti, hai prenotato il concerto!</div>
+                          <div>${par.children('.d').text()}, ${par.children('.h').text()},
+                          ${par.children('.p').text()}, ${par.children('.t').text()}, Biglietti: ${$('#numTicket').val()}</div></div>`;
+      $('.formAppend').append(stringConfirm);
 }
+
+// validation Mail - function copied from net
+
+/* function validateEmail(sEmail) {
+    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    if (filter.test(sEmail)) {
+        return true;
+    }
+    else {
+       return false;
+   }
+
+// add to else if for mail
+  !(validateEmail($('#tel').val()))
+}
+ */
